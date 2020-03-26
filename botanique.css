@@ -1,0 +1,115 @@
+*{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 55px;
+
+}
+body {
+	background-image: url("https://image.freepik.com/foto-gratis/fondo-patron-hojas-verdes-lay-flat-fondo-tono-verde-oscuro-naturaleza_9635-1311.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;		
+}
+
+.en-tête {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	width: 800px;
+	height: 30px;
+	background-color: #235c06;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+li {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+  }
+li a {
+	
+	text-decoration:none;
+    text-align: center;
+    color: whitesmoke;
+}
+li a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+li a:hover:after {
+    width: 100%;
+    background: whitesmoke;
+}
+a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+
+}
+p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+table {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+    margin-top: 5%;
+}
+
+.fleurs1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+.photo {
+	display: flex;
+	justify-content: center;
+}
+	
+.pied-de-page {
+	 display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	margin-top: 20px;
+	
+}
+footer {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 15%;
+}
