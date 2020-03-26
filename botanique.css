@@ -81,8 +81,7 @@ table {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-    align-items: center;
-	text-align: center;
+    
 	color: white;
 	font-size: 20px;
     margin-top: 5%;
@@ -112,4 +111,34 @@ footer {
 	text-align: center;
 	font-size: 20px;
 	margin-top: 15%;
+}
+
+
+
+.headertab{
+width: 100em;
+}
+
+.th1{
+	width: 6em;
+}
+.th2{
+	width: 15.8em;
+}
+.th3{
+	width:16.7em;
+}
+.th4{
+	width:9.2em;
+}
+.th5{
+	width: 16.5em;
+}
+.th6{
+	width: 8.5em;
+}
+
+.pied-de-page{
+	display: flex;
+	justify-content: space-between;
 }
